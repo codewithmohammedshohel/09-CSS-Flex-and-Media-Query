@@ -1,0 +1,12 @@
+.container {
+  display: flex;
+  gap: 20px;
+}
+
+.box {
+  border: 20px solid blueviolet;
+  border-radius: 20px;
+  background-color: yellowgreen;
+  padding: 10px;
+  text-align: justify;
+}
