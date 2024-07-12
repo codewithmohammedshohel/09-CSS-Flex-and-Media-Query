@@ -7,6 +7,29 @@
   border: 20px solid blueviolet;
   border-radius: 20px;
   background-color: yellowgreen;
-  padding: 10px;
-  text-align: justify;
+  padding: 20px;
+  /* text-align: justify; */
+}
+
+
+.container-2{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2px;
+}
+
+.item{
+  width: 50px;
+  height: 50px;
+  background-color: aquamarine;
+  border: 2px solid tomato;
+}
+
+/* media query */
+@media screen {
+  /* responsive sieze device width */
+  (max: width: 576px); 
+  .container{
+    flex-direction: column;
+  }
 }
